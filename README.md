@@ -1,6 +1,6 @@
 # php-flat-file-url-shortener-2 🔗
 
-Another flat file URL shortener written in PHP which uses a slightly different URL shortage method.
+Another flat file URL shortener written in PHP which uses a slightly different URL storage method.
 
 ## Getting setup
 

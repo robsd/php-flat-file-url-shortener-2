@@ -11,3 +11,9 @@ Another flat file URL shortener written in PHP which uses a slightly different U
 ## Need a hint?
 
 I have created an example shortened URL in **urls.txt** based on the above setup guide.
+
+## Support my work
+
+If you like this repo or used any of the code, please star ⭐ it and consider supporting me below...
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F34TIDQ)

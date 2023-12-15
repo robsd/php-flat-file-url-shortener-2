@@ -1,14 +1,16 @@
 <?php
 	if (!isset($_GET['alias']))
 	{
-		die("Welcome to the URL shortener!");
+		http_response_code(400);
+		die("No URL requested!");
 	}
 	
 	$alias = htmlspecialchars($_GET['alias']);
 		
 	if (!$urls = file("urls.txt"))
 	{
-		die("Couldn't read urls.txt!");
+		http_response_code(500);
+		die("urls.txt is empty or doesn't exist!");
 	}
 	
 	foreach ($urls as $url)
@@ -21,5 +23,6 @@
 		}
 	}
 			
-	echo "URL /$alias not found!";
+	http_response_code(404);
+	die("/$alias not found!");
 ?>
